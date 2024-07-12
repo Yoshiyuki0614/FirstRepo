@@ -1,0 +1,74 @@
+/* CSS for lab 19 Contact */
+* {
+  font-size: large;
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+  background-color: lightgrey;
+  width: 400px;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+form div label {
+  width: 15%;
+  margin: 2% 2% 2% 3%;
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 10;
+}
+
+form div input {
+  margin: 1% 2% 1% 2%;
+  width: 71%;
+}
+
+input:focus,textarea:focus{
+  border: 2px solid #73AEEC;
+  border-radius: 2px;
+}
+
+/*input[type=text],
+input[type=email]{
+  width: 200px;
+}*/
+
+form textarea {
+  width: 93%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+form button {
+  float: right;
+  margin-right: 2.5%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 1%;
+}
+
+form::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+input{
+  padding: 5px;
+}
+
+input:focus{
+  outline: #73AEEC 1px solid;
+}
+
+#name-input{
+  margin-bottom: 10;
+}
